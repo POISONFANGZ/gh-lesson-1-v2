@@ -31,32 +31,44 @@
 
 .section-middle {
     height: 60vh;
-    background-color: blueviolet;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .container-middle-upper {
     height: 30vh;
+    display: flex;
+    /* justify-content: center; */
 }
 
 .container-img {
     height: 100%;
-    width: 30vw;
+    width: 100%;
+    margin-left: 1rem;
+    
 }
 
 .container-text {
     height: 100%;
-    width: 20vw;
+    width: 100%;
+    margin-left: 5rem;
+    /* text-align: center; */
 }
 
 p {
-    font-size: 1.5rem;
-    height: 60%;
+    font-size: 2rem;
+    height: 100%;
+    width: 80%;
     text-align: center;
 }
 
 img {
     height: 100%;
     width: 100%;
+    border-radius: 100%;
     object-fit: contain;
 }
 /* =================== Section Bottom ==================== */
